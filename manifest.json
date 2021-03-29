@@ -1,0 +1,14 @@
+{
+  "name": "RSFM",
+  "version": "3.0",
+  "description": "Build an Extension!",
+  "content_scripts": [
+   {
+     "matches": ["<all_urls>"],
+     "js": ["jquery.min.js","background.js"]
+   }
+ ],
+ 
+ 
+  "manifest_version": 2
+}
